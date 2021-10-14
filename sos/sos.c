@@ -27,14 +27,14 @@ int main() {
 	}
 }
 
-void s() {
+void s(void) {
 	gpio_put(LED_PIN, GPIO_ON);
         sleep_ms(250);
         gpio_put(LED_PIN, GPIO_OFF);
         sleep_ms(60);
 }
 
-void o() {
+void o(void) {
 	gpio_put(LED_PIN, GPIO_ON);
 	sleep_ms(750);
 	gpio_put(LED_PIN, GPIO_OFF);
