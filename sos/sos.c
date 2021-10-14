@@ -14,10 +14,10 @@ int main() {
 		if(ctrl) {
 			// ...
 			gpio_put(LED_PIN, GPIO_ON);
-            sleep_ms(250);
-            gpio_put(LED_PIN, GPIO_OFF);
-            sleep_ms(60);
-            gpio_put(LED_PIN, GPIO_ON);
+            		sleep_ms(250);
+            		gpio_put(LED_PIN, GPIO_OFF);
+           		sleep_ms(60);
+            		gpio_put(LED_PIN, GPIO_ON);
 			sleep_ms(250);
 			gpio_put(LED_PIN, GPIO_OFF);
 			sleep_ms(60);
