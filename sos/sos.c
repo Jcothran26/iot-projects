@@ -14,7 +14,7 @@ int main() {
 		if(ctrl) {
 			// ...
 			dot();
-        	dot();
+        		dot();
 			dot();
 			ctrl = false;
 		}else {
