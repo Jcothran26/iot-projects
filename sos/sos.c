@@ -13,28 +13,28 @@ int main() {
 	while(true) {
 		if(ctrl) {
 			// ...
-			s();
-            		s();
-			s();
+			dot();
+        	dot();
+			dot();
 			ctrl = false;
 		}else {
 			// - - -
-			o();
-			o();
-			o();
+			dash();
+			dash();
+			dash();
 			ctrl = true;
 		}
 	}
 }
 
-void s(void) {
+void dot(void) {
 	gpio_put(LED_PIN, GPIO_ON);
         sleep_ms(250);
         gpio_put(LED_PIN, GPIO_OFF);
         sleep_ms(60);
 }
 
-void o(void) {
+void dash(void) {
 	gpio_put(LED_PIN, GPIO_ON);
 	sleep_ms(750);
 	gpio_put(LED_PIN, GPIO_OFF);
