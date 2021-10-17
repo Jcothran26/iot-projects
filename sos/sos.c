@@ -14,7 +14,7 @@ int main() {
 		if(ctrl) {
 			// ...
 			dot();
-        		dot();
+        	dot();
 			dot();
 			ctrl = false;
 		}else {
@@ -40,3 +40,5 @@ void dash(void) {
 	gpio_put(LED_PIN, GPIO_OFF);
 	sleep_ms(60);
 }
+
+
